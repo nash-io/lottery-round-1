@@ -1,0 +1,23 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": ["airbnb-base", "prettier"],
+  "rules": {    
+    "no-new": 0,
+    "no-shadow": 0,
+    "prettier/prettier": ["error"],
+    "global-require": 0,
+    "quotes": ["warn", "single"],
+    "object-curly-spacing": ["error", "always"],
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "import/no-dynamic-require": 0,
+    "semi": [2, "never"],
+    "max-len": 0,
+    "comma-dangle": ["error", "never"]
+  }
+}

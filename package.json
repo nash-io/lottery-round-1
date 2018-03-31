@@ -1,0 +1,22 @@
+{
+  "name": "lottery-winners",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "sort": "node sortEntrants.js",
+    "hash": "node hashGenerator.js"
+  },
+  "devDependencies": {
+    "eslint": "4.12.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.11.1"
+  },
+  "private": true,
+  "dependencies": {
+    "graceful-fs": "4.1.11",
+    "js-sha256": "0.9.0",
+    "jsonfile": "4.0.0"
+  }
+}

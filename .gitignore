@@ -1,0 +1,16 @@
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# environment variables
+/*.env
+
+# Optional npm cache directory
+.npm
+
+.DS_Store
+
+.idea
