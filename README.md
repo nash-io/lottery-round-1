@@ -61,9 +61,8 @@ We have also removed submissions from the US, as they are not eligible for the l
 
 ### What does the lottery sort do?
 
-When the documents were accepted in the lottery process, they were hashed using the `sha256 hmac` algorithm with a salt of `DssZksS81f`.  This process takes the result of that hash and then uses the last 32 characters of the document hash.
-
-These last 32 characters are then sorted alphabetically, and the first 25,000 document hashes are selected as winners.
+When the documents were accepted in the lottery process, they were hashed using the `sha256 hmac` algorithm with a salt of `DssZksS81f`.  This process takes the result of that hash.
+These hashes are then sorted alphabetically, and the first 25,000 document hashes are selected as winners.
 
 
 
