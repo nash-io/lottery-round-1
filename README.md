@@ -36,6 +36,13 @@ or
 $ yarn sort
 ```
 
+2. Round 2 of the sort selects the next 6500 document hashes in the same sort.  You can run round 2 like so:
+
+```
+$ node sortEntrantsRound2.js
+or
+$ yarn sort2
+```
 
 
 ### What is the hash of my document?
@@ -64,5 +71,5 @@ We have also removed submissions from the US, as they are not eligible for the l
 When the documents were accepted in the lottery process, they were hashed using the `sha256 hmac` algorithm with a salt of `DssZksS81f`.  This process takes the result of that hash.
 These hashes are then sorted alphabetically, and the first 25,000 document hashes are selected as winners.
 
-
+The second draw of the lottery simply takes hashes 25000 to 31500.
 

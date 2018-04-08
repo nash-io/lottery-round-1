@@ -3,6 +3,7 @@
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "sort": "node sortEntrants.js",
+    "sort2": "node sortEntrantsRound2.js",
     "hash": "node hashGenerator.js"
   },
   "devDependencies": {
